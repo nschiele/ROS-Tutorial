@@ -1,0 +1,8 @@
+digraph G {
+"world" -> "world1"[label="Broadcaster: /static_transform_publisher_1555314005008138597\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1555314013.946 sec old)\nBuffer length: 0.000 sec\n"];
+"world" -> "my_frame"[label="Broadcaster: /static_transform_publisher_1555312344148017345\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1555314013.946 sec old)\nBuffer length: 0.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1555314013.946"[ shape=plaintext ] ;
+ }->"world";
+}
